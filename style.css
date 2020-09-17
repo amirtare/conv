@@ -1,0 +1,78 @@
+button 
+{
+	border:1px solid green;
+	width: 60px;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 60px;
+	margin-left: 610px
+}
+button:hover
+{
+	background-color: green;
+}
+body
+{
+	background-color: #333333
+}
+h1
+{
+	color: white;
+	
+	margin-left: 480px;
+	margin-top: 100px;
+	font-size: 50px;
+	font-family: Roboto;
+	font-weight: lighter ;
+}
+input
+{
+	width: 460px;
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 410px;
+	padding: 15px;
+	border-radius: 8px;
+	border:none;
+	height: 20px
+}
+input:hover
+{
+	border:2px #282828;
+}
+div
+{
+	
+	width: 460px;
+	padding: 2px;
+	border:none;
+	border-radius: 8px;
+	font-family: 'Segoe UI';
+	font-weight: bold;
+	color: white;
+	margin:10px;
+	margin-left: 410px;
+	margin-top: 20px;
+	text-align: center;
+	display: block;
+}
+.pounds
+{
+	background-color: #0275d8;
+}
+.second
+{
+	background: #5cb85c
+	
+}
+.Grams
+{
+	background-color: #d9534f
+}
+.first,.third,.fourth
+{
+	text-align: left;
+	margin-left:1px;
+	color: white;
+	text-align: center;
+}
