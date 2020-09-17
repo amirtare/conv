@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+<body>
+	
+	<h1>Weight Converter</h1>
+	<input type="number" name="input" placeholder="Enter kilograms ...." id="kgInput">
+	<button id="btn1">
+		Go
+	</button>
+	<div class="pounds">
+		Pounds : <div id="lbsOutput" class="first"> 
+			
+		</div>
+	</div>
+	<div class="second">Ounces : <div id="ozOutput" class="third">
+		
+	</div></div>
+	<div class="Grams">Grams :
+		<div id="gramsOutput" class="fourth">
+			
+		</div></div>
+	<script>
+
+		document.getElementById('kgInput').addEventListener('input',
+		function(e){
+		  let kgs = e.target.value;
+		  document.getElementById('btn1').addEventListener('click',function(){
+		  document.getElementById('lbsOutput').innerHTML= (kgs*2.20462).toFixed(2);
+		  document.getElementById('ozOutput').innerHTML = (kgs*35.274).toFixed(2);
+		  document.getElementById('gramsOutput').innerHTML= (kgs*1000).toFixed(0);
+		  });
+		});
+
+	</script>
+
+</body>
+</html>
